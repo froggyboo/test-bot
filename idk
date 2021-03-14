@@ -1,0 +1,10 @@
+let Discord = require ("discord.js")
+let client = new Discord.Client()
+
+client.on ("message", message -> {
+if(message.content === "test") {
+  message.channel.send ("test")
+}
+})
+
+client.login("f2xVBEfxo0gXKtKR5qllVT-YYXVwfFoI")
